@@ -3,6 +3,7 @@ require 'yaml'
 require 'pry'
 
 def load_library(file)
+  new_hash = {}
   res = YAML.load_file(file)
   binding.pry
   p res

@@ -1,5 +1,5 @@
 # require modules here
-require 'emoticons'
+require_relative 'emoticons'
 
 def load_library
 end

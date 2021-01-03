@@ -1,8 +1,10 @@
 # require modules here
 require 'yaml'
+require 'pry'
 
 def load_library(file)
   res = YAML.load_file(file)
+  binding.pry
   p res
 end
 

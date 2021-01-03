@@ -15,8 +15,8 @@ def load_library(file)
 
 end
 
-def get_japanese_emoticon(word)
-  dict = load_library
+def get_japanese_emoticon(file, word)
+  dict = load_library(file)
   return dict[word][japanese]
   # code goes here
 end

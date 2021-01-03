@@ -15,7 +15,9 @@ def load_library(file)
 
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(word)
+  dict = load_library
+  dict[word][japanese]
   # code goes here
 end
 

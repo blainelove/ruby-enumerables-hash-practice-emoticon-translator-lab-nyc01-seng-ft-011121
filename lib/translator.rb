@@ -11,8 +11,9 @@ def load_library(file)
                   :japanese => value[1]
                 }
   end
+  binding.pry
   return final
-  # binding.pry
+
 end
 
 def get_japanese_emoticon

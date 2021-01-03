@@ -6,7 +6,7 @@ def load_library(file)
   final = {}
   res = YAML.load_file(file)
   res.each_with_object({}) do |(key, value), final|
-    final[key] = {
+    final[:key] = {
                   :english => value[0],
                   :japanese => value[1]
                 }

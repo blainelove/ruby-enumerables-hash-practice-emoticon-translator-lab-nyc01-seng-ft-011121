@@ -3,10 +3,14 @@ require 'yaml'
 require 'pry'
 
 def load_library(file)
-  new_hash = {}
+  final = {}
   res = YAML.load_file(file)
-  binding.pry
-  p res
+  res.each_with_object({}) do |(key, value), final|
+    final[key] = {
+                  :english => value[0],
+                  :japanese => value[1]
+                }
+  # binding.pry
 end
 
 def get_japanese_emoticon

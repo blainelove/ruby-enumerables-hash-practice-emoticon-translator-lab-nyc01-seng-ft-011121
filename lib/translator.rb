@@ -17,7 +17,7 @@ end
 
 def get_japanese_emoticon(file, word)
   dict = load_library(file)
-  dict[word][japanese]
+  dict[:word][:japanese]
   # code goes here
 end
 

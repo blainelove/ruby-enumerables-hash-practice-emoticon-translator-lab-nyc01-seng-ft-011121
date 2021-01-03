@@ -11,7 +11,6 @@ def load_library(file)
                   :japanese => value[1]
                 }
   end
-  binding.pry
   return final
 
 end

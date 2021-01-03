@@ -10,6 +10,8 @@ def load_library(file)
                   :english => value[0],
                   :japanese => value[1]
                 }
+  end
+  return final
   # binding.pry
 end
 

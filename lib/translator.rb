@@ -17,7 +17,7 @@ end
 
 def get_japanese_emoticon(word)
   dict = load_library
-  dict[word][japanese]
+  return dict[word][japanese]
   # code goes here
 end
 

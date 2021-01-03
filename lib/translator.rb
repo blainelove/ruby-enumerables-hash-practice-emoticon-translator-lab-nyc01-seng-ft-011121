@@ -12,7 +12,6 @@ def load_library(file)
                 }
   end
   return final
-
 end
 
 def get_japanese_emoticon(file, emoji)

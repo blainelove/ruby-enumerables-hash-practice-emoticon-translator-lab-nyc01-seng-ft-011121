@@ -15,7 +15,7 @@ def load_library(file)
 
 end
 
-def get_japanese_emoticon(file, word)
+def get_japanese_emoticon(file, emoji)
   dict = load_library(file)
   binding.pry
   # code goes here

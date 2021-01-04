@@ -22,6 +22,7 @@ def get_japanese_emoticon(file, emoji)
       return value[:japanese]
     end
   end
+  return "Sorry, that emoticon was not found"
   # code goes here
 end
 

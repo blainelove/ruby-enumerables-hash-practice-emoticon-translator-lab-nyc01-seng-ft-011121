@@ -30,5 +30,7 @@ def get_english_meaning(file, emoji)
   dict.each do |key, value|
     if value[:japanese] == emoji
       return key
+    end
+  end
   # code goes here
 end

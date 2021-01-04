@@ -16,8 +16,10 @@ end
 
 def get_japanese_emoticon(file, emoji)
   dict = load_library(file)
-  
-  binding.pry
+  dict.each do |key, value|
+    if value[:english] == emoji
+      return value[:japanese]
+    end
   # code goes here
 end
 

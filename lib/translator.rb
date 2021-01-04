@@ -20,6 +20,7 @@ def get_japanese_emoticon(file, emoji)
     if value[:english] == emoji
       return value[:japanese]
     end
+  end
   # code goes here
 end
 

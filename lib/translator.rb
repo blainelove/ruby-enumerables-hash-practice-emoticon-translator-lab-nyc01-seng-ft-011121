@@ -25,6 +25,10 @@ def get_japanese_emoticon(file, emoji)
   # code goes here
 end
 
-def get_english_meaning
+def get_english_meaning(file, emoji)
+  dict = load_library(file)
+  dict.each do |key, value|
+    if value[:japanese] == emoji
+      return key
   # code goes here
 end
